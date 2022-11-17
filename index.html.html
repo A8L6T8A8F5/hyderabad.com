@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://cdn.telanganatoday.com/wp-content/uploads/2022/07/Charminar-1.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+p.italic {
+  font-style: italic;
+}
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h1 style="font-size:50px">THE HYDERABAD</h1>
+  <p class="italic">"THE CITY OF DREAMS"</p>
+  <p>"Hyderabad, Hyderabad hai. Baaki sab Barbaad hai"</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<p><a href="http://127.0.0.1:5500/hellofolder/justHYDT.html">1.Just Hyderabadi Things</a> <br>
+<a href="http://127.0.0.1:5500/hellofolder/baigan.html">2.hello world</a>
+</p>
+
+
+</body>
+</html>
